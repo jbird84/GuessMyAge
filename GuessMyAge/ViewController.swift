@@ -9,11 +9,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let data = try! await loadData()
+        print(data)
     }
 
-
+    @IBAction func checkAgeButtonTapped(_ sender: Any) {
+        
+    }
+ 
+    async func loadData() -> Data {
+        let url = URL(string: "https://www.example.com/data.json")!
+        return try Data(contentsOf: url)
+      }
+    
 }
 

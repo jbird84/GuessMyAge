@@ -13,6 +13,8 @@
 		DA0B0C3529647A3E009FC9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0B0C3329647A3E009FC9BB /* Main.storyboard */; };
 		DA0B0C3729647A41009FC9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0B0C3629647A41009FC9BB /* Assets.xcassets */; };
 		DA0B0C3A29647A41009FC9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0B0C3829647A41009FC9BB /* LaunchScreen.storyboard */; };
+		DA0B0C4229647E74009FC9BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B0C4129647E74009FC9BB /* NetworkManager.swift */; };
+		DA0B0C442964827F009FC9BB /* Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B0C432964827F009FC9BB /* Age.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DA0B0C3629647A41009FC9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA0B0C3929647A41009FC9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA0B0C3B29647A41009FC9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0B0C4129647E74009FC9BB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DA0B0C432964827F009FC9BB /* Age.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DA0B0C3629647A41009FC9BB /* Assets.xcassets */,
 				DA0B0C3829647A41009FC9BB /* LaunchScreen.storyboard */,
 				DA0B0C3B29647A41009FC9BB /* Info.plist */,
+				DA0B0C4129647E74009FC9BB /* NetworkManager.swift */,
+				DA0B0C432964827F009FC9BB /* Age.swift */,
 			);
 			path = GuessMyAge;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0B0C4229647E74009FC9BB /* NetworkManager.swift in Sources */,
 				DA0B0C3229647A3E009FC9BB /* ViewController.swift in Sources */,
 				DA0B0C2E29647A3E009FC9BB /* AppDelegate.swift in Sources */,
+				DA0B0C442964827F009FC9BB /* Age.swift in Sources */,
 				DA0B0C3029647A3E009FC9BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
